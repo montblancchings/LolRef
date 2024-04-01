@@ -8,12 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let r = Request()
+    struct Champ {
+        var name: String
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        r.api(.champions, model: [Champ].self) { list in
+            
+        }
     }
-
 
 }
 

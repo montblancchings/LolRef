@@ -16,6 +16,7 @@
 		F8CA6F932BBAA3AD003D614B /* LolRefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CA6F922BBAA3AD003D614B /* LolRefTests.swift */; };
 		F8CA6F9D2BBAA3AD003D614B /* LolRefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CA6F9C2BBAA3AD003D614B /* LolRefUITests.swift */; };
 		F8CA6F9F2BBAA3AD003D614B /* LolRefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CA6F9E2BBAA3AD003D614B /* LolRefUITestsLaunchTests.swift */; };
+		F8CA6FAD2BBAA68D003D614B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CA6FAC2BBAA68D003D614B /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F8CA6F982BBAA3AD003D614B /* LolRefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LolRefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CA6F9C2BBAA3AD003D614B /* LolRefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolRefUITests.swift; sourceTree = "<group>"; };
 		F8CA6F9E2BBAA3AD003D614B /* LolRefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolRefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8CA6FAC2BBAA68D003D614B /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F8CA6F7A2BBAA3AC003D614B /* LolRef */ = {
 			isa = PBXGroup;
 			children = (
+				F8CA6FAB2BBAA681003D614B /* Networking */,
 				F8CA6F7B2BBAA3AC003D614B /* AppDelegate.swift */,
 				F8CA6F7D2BBAA3AC003D614B /* SceneDelegate.swift */,
 				F8CA6F7F2BBAA3AC003D614B /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				F8CA6F9E2BBAA3AD003D614B /* LolRefUITestsLaunchTests.swift */,
 			);
 			path = LolRefUITests;
+			sourceTree = "<group>";
+		};
+		F8CA6FAB2BBAA681003D614B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA6FAC2BBAA68D003D614B /* Request.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8CA6F802BBAA3AC003D614B /* ViewController.swift in Sources */,
+				F8CA6FAD2BBAA68D003D614B /* Request.swift in Sources */,
 				F8CA6F7C2BBAA3AC003D614B /* AppDelegate.swift in Sources */,
 				F8CA6F7E2BBAA3AC003D614B /* SceneDelegate.swift in Sources */,
 			);
